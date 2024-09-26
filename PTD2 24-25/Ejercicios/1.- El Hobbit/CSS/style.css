@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+
+
+header {
+   background-image: url(../IMG/hobbit_bg.jpg);
+   background-size: 100%;
+   color: white;
+   clip-path: polygon(0% 0%, 100% 0%, 100% 57%, 74% 63%, 63% 65%, 50% 68%, 0% 75%);
+   padding-top: 200px;
+   padding-bottom: 200px;
+   padding-left: 350px;
+   padding-right: 300px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.izquierda {
+    text-align: center;
+
+}
+.cover {
+    left: 100px;
+    top: 270px;
+    position: absolute;
+    display: block;
+}
+
+.izquierda .generos {
+    display: flex;
+    margin-left: 100px;
+    width: 50%;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.izquierda > .generos > button {
+    width: 100px;
+}
+
+.texto {
+    margin-top: -90px;
+    margin-bottom: 20px;
+    /* margin-left: 300px; */
+    padding-right: 150px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.derecha .avatares {
+    display: flex;
+    margin-top: 20px;
+    width: 50%;
+    column-gap: 10px;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 55px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.cabecera {
+    padding-bottom: 100px;
+}
+
+.botonp {
+    background-color: aqua;
+    border-radius: 150px;
+}
