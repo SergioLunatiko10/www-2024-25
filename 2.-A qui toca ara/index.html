@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A qui toca ara?</title>
+        <link rel="stylesheet" href="../2.-A qui toca ara/CSS/style.css">
+    </head>
+    <body>
+        <h1>A QUI TOCA ARA?</h1>
+        <div class="grid-container1" >
+        <h2>NOU JUGADOR</h2>
+        <form action="">
+            <input class="form1" id="camp_nom" type="text" placeholder="El teu nom..." >
+            <br>
+            <button class="button" type="button" onclick="AfegirJugador()">AFEGIR</button>
+        </form>
+        </div>
+
+        <div class="grid-container2">
+            <h2 class="titulo2" >LLISTAT DE JUGADORS</h2>
+                <p id="jugadors"></p>
+        </div>
+
+
+    <br>
+    <div class="grid-container3">
+        <h2>ARA JUGA</h2>
+        <p id="jugador_actual"></p>
+        <form action="">
+            <button class="button" type="button" onclick="NextPlayer()">SEGÜENT</button>
+        </form>
+    </div>
+    <br>
+    <script src="./JS/activitat2.js" ></script> 
+</body>
+
+</html>
