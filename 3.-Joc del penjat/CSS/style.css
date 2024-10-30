@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+body {
+    background-image: url(../IMG/fondo2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: greenyellow;   
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+}
+
+.left {
+    
+    margin-left: auto;
+    margin-right: auto;border-radius: 40px;
+    background-color: green;
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+    height: 300px;
+}
+
+.paraula {
+    margin-top: 10px;
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.letra {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    color: white;
+    background-color: rgb(0, 102, 255);
+    border: 3px solid rgb(174, 0, 255);
+    margin-top: 10px;
+    width: 30%;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: rgb(174, 0, 255);
+    border: 3px solid rgb(0, 102, 255);
+    width: 36%;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    background-color: green;
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+    height: 500px;
+}
+
+.llistat_lletres {
+    margin-top: 30px;
+    width: 250px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+
+
+#ganar {
+    display: none;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 200px;
+    padding-right: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
+    left: 150px;
+    border-radius: 30px;
+}
+
+#perder {
+    display: none;
+    background-color: red;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 350px;
+    margin-left: 50px;
+    margin-right: 120px;
+    left: 150px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+

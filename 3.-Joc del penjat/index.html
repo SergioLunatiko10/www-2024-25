@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joc del penjat</title>
+    <link rel="stylesheet" href="../3.-Joc del penjat/CSS/style.css">
+</head>
+
+<body onload="Inicialitzar()">
+    <header>
+      <h1>EL JOC DEL PENJAT</h1>
+    </header>
+    <main>
+      <div class="left">
+        <img id="imagen" src="./IMG/A0.png" alt="">
+        <p id="paraula" class="paraula"></p>
+        <form id="formulario">
+          <input id="letra" class="letra" type="text" placeholder="letra">
+          <br>
+          <button type="button" onclick="Enviar()">ENVIAR</button>
+        </form>
+        <p id="paraula_secreta"></p>
+      </div>
+
+      <div class="right">
+        <h2>LLISTAT DE LLETRES</h2>
+        <p class="llistat_lletres" id="llistat_lletres"></p>
+      </div>
+
+      <div id="ganar"> 
+        <p id="fraseencert" >¡HAS GANADO!</p>
+        <img id="meme" src="../3.-Joc del penjat/IMG/meme ganador.jpg">
+        <br>
+        <button onClick="window.location.reload();"id="button1" >Torna a jugar</button>
+      </div>
+
+      <div id="perder">
+        <p id="fraseerrada" >¡HAS PERDIDO!</p>
+        <img id="meme" src="../3.-Joc del penjat/IMG/meme perdedor.png">
+        <br>
+        <button onClick="window.location.reload();" id="button1" >Torna a jugar</button>
+      </div>
+
+    </main>
+    <script src="./JS/activitat3.js"></script>
+</body>
+</html>
