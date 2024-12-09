@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+/* variables definition */
+
+:root {
+
+    /* The designs were created to the following widths: */
+    --mobile_width: 375px;
+    --desktop_width: 1440px;
+
+    /* ### Primary */
+    --dark_cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    
+    /* ### Neutral */
+    --very_dark_blue: hsl(212, 21%, 14%);
+    --dark_grayish_blue: hsl(228, 12%, 48%);
+
+    --paragraph_size: 14px;
+}
+
+.montserrat-500 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: green;
+  }
+
+.montserrat-700 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: grey;
+  }
+
+.fraunces-700 {
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+    font-family: "Fraunces",serif;
+}
+
+
+/* PREVIUS STYLE INFO */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/* ************************** */
+
+body {
+    background-color: rgb(222, 193, 152);
+    width: var(--mobile_width);
+}
+
+.perfume {
+    letter-spacing: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.titulo {
+    font-size: 35px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: 88%;
+    margin-top: 25px;
+}
+
+.texto {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 200%;
+}
+
+#precio1 {
+    font-size: 40px;
+    color: green;
+}
+
+.precio2 {
+    font-size: 20px;
+    margin-left: 25px;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.precios {
+    display: flex;
+    margin-top: 15px;
+    width: 50%;
+    column-gap: 20px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    width: 80%; 
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: green;
+    border: 3px solid rgb(10, 81, 10);
+    width: 40%;
+}
+
+.parrafo {
+    color: grey;
+}
+
+.divimagen {
+    display: block;
+    width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+    
+    main {
+        display: block;
+        width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 0;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        width: 45%;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+    }
+    
+    
+    .left {
+        display:block;
+        flex: 40%;
+
+    }
+    
+    .divimagen {
+        display: block;
+        justify-content: center; 
+    }
+
+    .texto{
+        flex: 60%;
+        justify-content: center;
+    }
+    
+}  
+
