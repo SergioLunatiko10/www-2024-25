@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+   font-family: 'Poppins', sans-serif;
+  }
+  body {
+    background: hsl(0, 0%, 98%);
+  }
+
+  main {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  header   {
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+    /* border: 2px solid rgb(99, 14, 245); */
+  }
+
+  header h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+
+
+  .texto-primero {
+    display: block;
+    margin-inline: auto;
+    text-align: center;
+    font-size: 16px;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    margin-bottom: 30px;
+    /* border: 2px solid red; */
+    width: 90%;
+  }
+  
+
+  .container {
+    display: flex;
+    width: 100%;
+    margin-inline: auto;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+  }
+
+
+
+   h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+
+  .supervisor {
+    position: relative;
+    width: 330px;
+    height: 220px;
+    border-radius: 5px;
+    border-top: 3px solid rgb(10, 211, 211); 
+    box-shadow: 5px 5px 10px rgb(151, 157, 164) 
+  }
+
+  .centro {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+      .team-builder {
+        position: relative;
+        width: 330px;
+        height: 220px;
+        border-radius: 5px;
+        border-top: 3px solid rgb(211, 10, 10); 
+        box-shadow: 5px 5px 10px rgb(151, 157, 164) 
+      }
+
+      .karma {
+        position: relative;
+        height: 220px;
+        width: 330px;
+        border-radius: 5px;
+        border-top: 3px solid rgb(219, 77, 11);  
+        box-shadow: 5px 5px 10px rgb(151, 157, 164) 
+      }
+
+
+  .calculator {
+    position: relative;
+    width: 330px;
+    height: 220px;
+    border-radius: 5px;
+    border-top: 3px solid rgb(13, 118, 216);
+    box-shadow: 5px 5px 10px rgb(151, 157, 164) 
+  }
+
+  .texto-tarjeta {
+    text-align: left;
+    padding: 0px 20px;
+  }
+
+  .img{
+    display: block;
+    position: absolute;
+    /* margin-right: 20px;
+    margin-top: 24px; */
+    /* text-align: right; */
+    bottom: 20px;
+    right: 20px;
+  }
+
+  @media (min-width: 1000px) {
+    
+  .container {
+      flex-direction: row;
+    }
+ 
+  }
